@@ -5,7 +5,7 @@ import { Speaker as SpeakerComponent } from "../components/speaker";
 const Speaker = () => {
   return (
     <section
-      className="w-full flex flex-col items-center justify-center gap-12 lg:gap-20"
+      className="w-full flex flex-col items-center justify-center gap-12 lg:gap-20 lg:px-32 md:px-16 sm:px-12"
       id="speaker"
     >
       <Text textType={"sub_hero"} className="text-gradient text-center">

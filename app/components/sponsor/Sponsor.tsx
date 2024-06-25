@@ -19,7 +19,7 @@ export const Sponsor = React.forwardRef<SponsorElement, SponsorProps>(
       <div
         className={classNames(
           className,
-          "flex w-[120px] h-[120px] p-[10px] md:w-[150px] md:h-[150px] md:p-[25px] justify-center items-center shrink-0 bg-white",
+          "flex w-[150px] h-[150px] p-[10px] md:w-[225px] md:h-[225px] md:p-[25px] justify-center items-center shrink-0 bg-white",
         )}
         ref={ref}
         {...restProps}

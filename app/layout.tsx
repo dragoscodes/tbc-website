@@ -16,6 +16,23 @@ export const metadata: Metadata = {
     title: "TUM Blockchain Conference 24",
     description:
       "Germany's leading student-run conference exploring the frontiers of blockchain technology",
+    type: "website",
+    url: "https://conference.tum-blockchain.com",
+    images: [
+      {
+        url: "https://conference.tum-blockchain.com//metadata/metadata.png",
+        width: 750,
+        height: 450,
+        alt: "TUM Blockchain Conference 24",
+      },
+    ],
+  },
+  twitter: {
+    title: "TUM Blockchain Conference 24",
+    description:
+      "Germany's leading student-run conference exploring the frontiers of blockchain technology",
+    images: ["https://conference.tum-blockchain.com//metadata/metadata.png"],
+    creator: "@tbc_munich",
   },
 };
 
